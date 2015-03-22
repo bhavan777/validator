@@ -24,9 +24,17 @@
 <input type="text" validator-required />
 <span class="validator-error"></span>
 <input type="submit" id="submit" />
-
-
 </form>
+
+
+HTML ->>
+<img src="markup.png">
+<br/>
+CSS ->>
+<img src="style.png">
+<br/>
+JS ->>
+<img src="js.png">
 <script type="text/javascript">
 
 	$(document).ready(function () {
@@ -34,9 +42,9 @@
 			var isValid=$("#validator").validator(
 			{
 				errorMessages:{
-					required:"fukking required",
-					invalidEmail:"fukking email",
-					invalidPhone:"fukking phone"
+					required:"absolutely required",
+					invalidEmail:"invali email adress",
+					invalidPhone:"invalid phone number"
 				}
 
 			});

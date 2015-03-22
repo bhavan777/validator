@@ -44,8 +44,8 @@ someID.Click (event)->
 			{
 				errorMessages:{
 					required:"fukking required",
-					invalidEmail:"fukking email",
-					invalidPhone:"fukking phone"
+					invalidEmail:"invalid email Address",
+					invalidPhone:"invalid phone number"
 				}
 			});
 
@@ -53,4 +53,4 @@ someID.Click (event)->
 
 
 which would stop the form from submitting incase the isValid value is false which means the form is not valid which returns false so, negation of false is true, which stop the form from submitting.. or it just continues submitting the form... suggest more options to be worked out for validations.. currently i am working on restricting email ids to only cenrtain subdomains, ofcourse the oprtion being provided by developer....
-feel free to suggest more validation options and ways... im working on to include all the input types, currently only text inputs are being handled., i am working on to make it work for select, radio groups, checkboxes... suggestions are welcome.... bhavanvitu@gmail.com drop a mail with suggestions....
+feel free to suggest more validation options and ways... im working on to include all the input types, currently only text inputs are being handled., i am working on to make it work for select, radio groups, checkboxes... suggestions are welcome.... bhavanvitu@gmail.com drop a mail with suggestions....<a href="http://bhavansharma.co.nf/validator/">click here</a> to see ths in action
