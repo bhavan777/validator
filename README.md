@@ -3,7 +3,7 @@
 simple jquery plugin to perform validations on any html form...
 just follow the html markup style specified and then call $("#myformID").validator() which returns true if form is valid and false if invalid ... acordingly submit the form or halt...
 sample html markup pattern...
-
+"
 <form id= "myForm" action="/temp.html" style="width:100px;" >
 	<input type="text" validator-email validator-required   />
 	<span class="validator-error"></span>
@@ -15,7 +15,7 @@ sample html markup pattern...
 	<span class="validator-error"></span>
 	<input type="submit" id="someID" />
 </form>
-
+"
 include the validator.js below jquery inclusion as this plugin is obviously dependant on jquery... just mention attributes on the input fields...for different validations....
 
 1.validator-required -> checks for empty value validation
