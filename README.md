@@ -35,7 +35,22 @@ someID.Click (event)->
   	event.preventDefault();
   }
   end//
+
+  you can provide custom messages to display for the validations for three common cases being handled, not null, invalid email and invalid number
+
+  Example:
+
+  			var isValid=$("#validator").validator(
+			{
+				errorMessages:{
+					required:"fukking required",
+					invalidEmail:"fukking email",
+					invalidPhone:"fukking phone"
+				}
+			});
+
 ```
 
 
-which would stop the form from submitting incase the isValid value is false which means the form is not valid which returns false so, negation of false is true, which stop the form from submitting.. or it just continues submitting the form...
+which would stop the form from submitting incase the isValid value is false which means the form is not valid which returns false so, negation of false is true, which stop the form from submitting.. or it just continues submitting the form... suggest more options to be worked out for validations.. currently i am working on restricting email ids to only cenrtain subdomains, ofcourse the oprtion being provided by developer....
+feel free to suggest more validation options and ways... im working on to include all the input types, currently only text inputs are being handled., i am working on to make it work for select, radio groups, checkboxes... suggestions are welcome.... bhavanvitu@gmail.com drop a mail with suggestions....
